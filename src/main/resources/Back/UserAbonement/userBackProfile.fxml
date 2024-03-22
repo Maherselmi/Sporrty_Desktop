@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="1320.0" styleClass="root" stylesheets="@../../style/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Front.CoursProgram.UserFxml">
+
+   <children>
+
+      <VBox prefHeight="781.0" prefWidth="281.0">
+
+         <children>
+
+            <AnchorPane fx:id="side_ankerpane" prefHeight="827.0" prefWidth="281.0" style="-fx-background-color: #f3fafa;" styleClass="side_ankerpane" stylesheets="@../../style/style.css">
+
+               <children>
+
+                  <ImageView fitHeight="196.0" fitWidth="203.0" layoutX="44.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+
+                     <image>
+
+                        <Image url="@../../assets/logo.png" />
+
+                     </image>
+
+                  </ImageView>
+
+                  <Button fx:id="btn_workbench1" layoutX="18.0" layoutY="201.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Home" textFill="WHITE">
+
+                     <font>
+
+                        <Font name="Century Gothic Bold" size="13.0" />
+
+                     </font>
+
+                  </Button>
+                  <Button fx:id="btn_workbench11" layoutX="19.0" layoutY="258.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="User Management" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench111" layoutX="19.0" layoutY="317.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Stock Management" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench12" layoutX="19.0" layoutY="377.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Cours Management" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench112" layoutX="19.0" layoutY="436.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Event Management" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench1111" layoutX="18.0" layoutY="696.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #5bc0de;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Profile" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench111111" layoutX="18.0" layoutY="760.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #dc3545;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Log Out" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench1121" layoutX="19.0" layoutY="495.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Gym Management" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench11211" layoutX="19.0" layoutY="556.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Product Management" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench1122" layoutX="17.0" layoutY="617.0" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Reclamation Management" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+
+               </children>
+
+            </AnchorPane>
+
+         </children>
+
+      </VBox>
+
+      <Pane prefHeight="781.0" prefWidth="1040.0" style="-fx-background-color: #f3fafa;">
+
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="113.0" layoutX="913.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/images/Guy_in_laptop.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="818.0" layoutY="38.0" text="Dina Gharbi">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="138.0" text="Profile">
+               <font>
+                  <Font name="Century Gothic Bold" size="34.0" />
+               </font>
+            </Label>
+            <Pane fx:id="pane_1111" layoutX="59.0" layoutY="189.0" prefHeight="303.0" prefWidth="451.0" style="-fx-background-color: #5bc0de; -fx-border-color: #000000;" styleClass="pane_1111" stylesheets="@../../style/style.css">
+               <children>
+                  <Label layoutX="329.0" layoutY="181.0" prefHeight="39.0" prefWidth="119.0" text="Dina Gharbi" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="283.0" fitWidth="381.0" layoutX="-63.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/images/Guy_in_laptop.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="267.0" layoutY="211.0" prefHeight="39.0" prefWidth="175.0" text="dina.gharbi@esprit.tn" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="358.0" layoutY="152.0" prefHeight="30.0" prefWidth="74.0" text="Role: Admin" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btn_workbench1312111" layoutX="278.0" layoutY="49.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: #dc3545;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Delete Profile" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane fx:id="pane_111111111" layoutX="530.0" layoutY="189.0" prefHeight="303.0" prefWidth="470.0" style="-fx-border-color: black; -fx-background-color: f3fafa;" styleClass="pane_1111" stylesheets="@../../style/style.css">
+               <children>
+                  <TextField layoutX="38.0" layoutY="49.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0000;" styleClass="pane_1111" text="Dina" />
+                  <Label layoutX="38.0" layoutY="12.0" prefHeight="39.0" prefWidth="119.0" text="Nom" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="38.0" layoutY="215.0" style="-fx-background-color: #f3fafa; -fx-border-color: 000;" styleClass="pane_1111" text="Gharbi" />
+                  <Label layoutX="38.0" layoutY="178.0" prefHeight="39.0" prefWidth="119.0" text="Prenom" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="38.0" layoutY="131.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0;" styleClass="pane_1111" text="dina.gharbi@esprit.tn" />
+                  <Label layoutX="38.0" layoutY="94.0" prefHeight="39.0" prefWidth="119.0" text="Email" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btn_workbench1312" layoutX="289.0" layoutY="151.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: #28a745;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Save" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench13121" layoutX="289.0" layoutY="205.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: #dc3545;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Reset" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane fx:id="pane_1111111111" layoutX="530.0" layoutY="506.0" prefHeight="303.0" prefWidth="480.0" style="-fx-border-color: black; -fx-background-color: f3fafa;" styleClass="pane_1111" stylesheets="@../../style/style.css">
+               <children>
+                  <Button fx:id="btn_workbench13122" layoutX="286.0" layoutY="164.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: #28a745;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Change Password" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_workbench131211" layoutX="286.0" layoutY="218.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: #dc3545;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Cancel" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <TextField layoutX="49.0" layoutY="56.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0000;" styleClass="pane_1111" />
+                  <Label layoutX="49.0" layoutY="19.0" prefHeight="39.0" prefWidth="119.0" text="Old Password" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="49.0" layoutY="222.0" style="-fx-background-color: #f3fafa; -fx-border-color: 000;" styleClass="pane_1111" />
+                  <Label layoutX="49.0" layoutY="185.0" prefHeight="39.0" prefWidth="196.0" text="Confirm New Password" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="49.0" layoutY="138.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0;" styleClass="pane_1111" />
+                  <Label layoutX="49.0" layoutY="101.0" prefHeight="39.0" prefWidth="119.0" text="New Password" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+
+         </children>
+
+      </Pane>
+
+   </children>
+
+</HBox>

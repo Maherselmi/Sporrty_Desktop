@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="1320.0" styleClass="root" stylesheets="@../../style/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Back.StockMateriel.userBackMaterielManagementForm">
+
+   <children>
+
+      <VBox prefHeight="781.0" prefWidth="281.0">
+
+         <children>
+
+            <AnchorPane fx:id="side_ankerpane" prefHeight="827.0" prefWidth="281.0" style="-fx-background-color: #f3fafa;" styleClass="side_ankerpane" stylesheets="@../../style/style.css">
+
+               <children>
+
+                  <ImageView fitHeight="196.0" fitWidth="203.0" layoutX="44.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+
+                     <image>
+
+                        <Image url="@../../assets/logo.png" />
+
+                     </image>
+
+                  </ImageView>
+
+                  <Button fx:id="HomaMan" layoutX="18.0" layoutY="201.0" onAction="#openUserBackHome" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Home" textFill="WHITE">
+
+                     <font>
+
+                        <Font size="13.0" />
+
+                     </font>
+
+                  </Button>
+                  <Button fx:id="UserMan" layoutX="19.0" layoutY="258.0" onAction="#openUserManagement" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="User Management" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="StockMan" layoutX="19.0" layoutY="317.0" onAction="#openStockManagement" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #5bc0de;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Stock Management" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="CourMan" layoutX="19.0" layoutY="377.0" onAction="#openCourManagement" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Cours Management" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="EventMan" layoutX="19.0" layoutY="436.0" onAction="#openEventManagement" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Event Management" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="LogOut" layoutX="18.0" layoutY="760.0" onAction="#LogOut" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #dc3545;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Log Out" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="GymMan" layoutX="19.0" layoutY="495.0" onAction="#openGymManagement" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Gym Management" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="ProductMan" layoutX="19.0" layoutY="556.0" onAction="#openProductManagement" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Product Management" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="ReclamMan" layoutX="17.0" layoutY="617.0" onAction="#openReclamationManagement" prefHeight="53.0" prefWidth="248.0" style="-fx-background-color: #1e2b3c;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Reclamation Management" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+
+               </children>
+
+            </AnchorPane>
+
+         </children>
+
+      </VBox>
+
+      <Pane prefHeight="781.0" prefWidth="1040.0" style="-fx-background-color: #f3fafa;">
+
+         <children>
+
+            <Label layoutX="47.0" layoutY="128.0" text="Materiel Management:">
+
+               <font>
+
+                  <Font name="Century Gothic Bold" size="34.0" />
+
+               </font>
+
+            </Label>
+            <ImageView fitHeight="70.0" fitWidth="113.0" layoutX="913.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/images/Guy_in_laptop.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="818.0" layoutY="38.0" text="Dina Gharbi">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="addT" layoutX="852.0" layoutY="622.0" onAction="#Submit" prefHeight="53.0" prefWidth="162.0" style="-fx-background-color: #28a745;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Submit" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="13.0" />
+               </font>
+            </Button>
+            <TextField fx:id="NomFeild" layoutX="440.0" layoutY="267.0" prefHeight="43.0" prefWidth="235.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0000;" styleClass="pane_1111" />
+            <Label layoutX="499.0" layoutY="126.0">
+               <font>
+                  <Font name="Century Gothic Bold" size="34.0" />
+               </font>
+            </Label>
+            <Label layoutX="463.0" layoutY="237.0" text="Nom">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="QuantiteField" layoutX="440.0" layoutY="432.0" prefHeight="43.0" prefWidth="235.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0000;" styleClass="pane_1111" />
+            <Label layoutX="474.0" layoutY="394.0" text="Quantite">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="CategorieComboBox" layoutX="748.0" layoutY="273.0" prefHeight="43.0" prefWidth="235.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0;" styleClass="pane_1111" />
+            <Label layoutX="837.0" layoutY="237.0" text="Categorie">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="806.0" layoutY="394.0" text="Stock">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_workbench1111121" layoutX="684.0" layoutY="622.0" onAction="#Cancel" prefHeight="53.0" prefWidth="162.0" style="-fx-background-color: #dc3545;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="InscriMessageLabel" layoutX="321.0" layoutY="761.0" prefHeight="21.0" prefWidth="376.0" />
+            <Label fx:id="nomErrorLabel" layoutX="437.0" layoutY="325.0" prefHeight="17.0" prefWidth="332.0" styleClass="error-label" />
+            <Label fx:id="categorieErrorLabel" layoutX="790.0" layoutY="325.0" styleClass="error-label" />
+            <Label fx:id="quantiteErrorLabel" layoutX="436.0" layoutY="479.0" prefHeight="21.0" prefWidth="219.0" styleClass="error-label" />
+            <Label fx:id="idStockErrorLabel" layoutX="770.0" layoutY="492.0" styleClass="error-label" />
+            <ImageView fitHeight="286.0" fitWidth="306.0" layoutX="38.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="370.0" fitWidth="350.0" layoutX="31.0" layoutY="202.0">
+               <image>
+                  <Image url="@../../assets/images/imageMat.jpg" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="StockComboBox" layoutX="748.0" layoutY="432.0" prefHeight="43.0" prefWidth="235.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0;" styleClass="pane_1111" />
+            <Label fx:id="stockErrorLabel" layoutX="835.0" layoutY="484.0" styleClass="error-label" />
+            <TextField fx:id="Lien_VideoTF" layoutX="440.0" layoutY="627.0" prefHeight="43.0" prefWidth="235.0" style="-fx-background-color: #f3fafa; -fx-border-color: 0000;" styleClass="pane_1111" />
+            <Label layoutX="461.0" layoutY="598.0" text="Lien Video">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="430.0" layoutY="509.0" onAction="#uploadImage" prefHeight="53.0" prefWidth="162.0" style="-fx-background-color: ffff; -fx-border-color: 0;" styleClass="btn_workbench11" stylesheets="@../../style/style.css" text="Upload">
+               <font>
+                  <Font name="Century Gothic Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="imagePath" layoutX="598.0" layoutY="546.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="error_lien_video" layoutX="437.0" layoutY="675.0" prefHeight="17.0" prefWidth="235.0" styleClass="error-label" />
+            <Label fx:id="Error_Image_Label" layoutX="436.0" layoutY="565.0" prefHeight="17.0" prefWidth="146.0" styleClass="error-label" />
+
+         </children>
+
+      </Pane>
+
+   </children>
+
+</HBox>

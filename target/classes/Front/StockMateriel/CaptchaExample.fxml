@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="1320.0" styleClass="root" stylesheets="@../../style/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Front.StockMateriel.CaptchaController">
+
+    <children>
+        <HBox spacing="10">
+            <Label text="Captcha:"/>
+            <ImageView fx:id="captchaImageView"/>
+            <Button text="Refresh" onAction="#refreshCaptcha"/>
+        </HBox>
+        <TextField fx:id="captchaInputField" promptText="Enter Captcha"/>
+        <Button text="Verify" onAction="#verifyCaptcha"/>
+    </children>
+</HBox>

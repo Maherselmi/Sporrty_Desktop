@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="480.0" style="-fx-border-width: 0;" styleClass="white-pane" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Authentification.SignUp">
+   <children>
+      <Label text="Sign Up" textFill="#2196f3">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" top="40.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="firstNameField" promptText="Full Name" styleClass="tf_box" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="lastNameField" promptText="Last Name" styleClass="tf_box" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="15.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="emailField" promptText="Email" styleClass="tf_box" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <PasswordField fx:id="passwordField" prefHeight="31.0" prefWidth="439.0" promptText="Password" styleClass="tf_box" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <PasswordField fx:id="confirmPasswordField" prefHeight="31.0" prefWidth="414.0" promptText="Confiem Password" styleClass="tf_box" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+         <children>
+            <AnchorPane prefHeight="74.0" prefWidth="447.0">
+               <children>
+                  <ImageView fx:id="ImageViewUser" fitHeight="84.0" fitWidth="133.0" layoutX="285.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button fx:id="SelectImageButton" layoutX="7.0" layoutY="22.0" mnemonicParsing="false" onAction="#uploadImage" prefHeight="38.0" prefWidth="108.0" styleClass="blue-btn" text="Upload Image" textFill="WHITE" />
+                  <Label fx:id="imageFullPath" layoutX="122.0" layoutY="31.0" prefHeight="21.0" prefWidth="108.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <Button fx:id="signUp" mnemonicParsing="false" onAction="#signUp" prefHeight="38.0" prefWidth="456.0" styleClass="blue-btn" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </Button>
+      <Label fx:id="InscriMessageLabel" prefHeight="57.0" prefWidth="459.0" textAlignment="CENTER" textFill="RED" />
+   </children>
+</VBox>
